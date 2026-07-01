@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">Zhong Hewei personal mark</title>
+  <desc id="desc">A compact monogram mark built from ZH and signal lines.</desc>
+  <rect width="720" height="720" rx="64" fill="#20251f"/>
+  <path d="M118 164h250v54L199 493h175v63H107v-55l170-274H118v-63Z" fill="#f4efe4"/>
+  <path d="M424 164h72v160h86V164h72v392h-72V391h-86v165h-72V164Z" fill="#d9b35f"/>
+  <path d="M116 609h488" stroke="#8ca66b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M116 636h332" stroke="#8ca66b" stroke-width="10" stroke-linecap="round" opacity=".55"/>
+  <circle cx="608" cy="614" r="20" fill="#8ca66b"/>
+</svg>

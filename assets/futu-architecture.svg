@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">Futu desktop watcher architecture</title>
+  <desc id="desc">Architecture diagram showing Futu desktop, screen capture, OCR, YOLO detection, strategy engine, alert deduplication, and multi-channel push.</desc>
+  <rect width="1280" height="760" fill="#f7f3ea"/>
+  <rect x="52" y="52" width="1176" height="656" rx="28" fill="#fffaf0" stroke="#d4cab7" stroke-width="2"/>
+  <text x="92" y="112" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#20251f">桌面端图像识别与信号推送系统</text>
+  <text x="92" y="152" font-family="Inter, Arial, sans-serif" font-size="18" fill="#596158">Windows 富途图表监控 · OCR / YOLO ONNX / OpenCV · 多通道告警</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#617052"/>
+    </marker>
+    <style>
+      .box{fill:#ffffff;stroke:#cfc4af;stroke-width:2}
+      .dark{fill:#20251f}
+      .label{font:700 20px Inter,Arial,sans-serif;fill:#20251f}
+      .small{font:15px Inter,Arial,sans-serif;fill:#60675e}
+      .smallLight{font:15px Inter,Arial,sans-serif;fill:#dfe6d7}
+      .line{stroke:#617052;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect class="box" x="92" y="228" width="210" height="118" rx="18"/>
+  <text class="label" x="122" y="274">富途桌面</text>
+  <text class="small" x="122" y="305">图表窗口 / 标题校验</text>
+  <text class="small" x="122" y="329">keyboard-only 切换</text>
+
+  <rect class="box" x="388" y="228" width="210" height="118" rx="18"/>
+  <text class="label" x="418" y="274">截图与 OCR</text>
+  <text class="small" x="418" y="305">ROI 截屏 / Tesseract</text>
+  <text class="small" x="418" y="329">窗口状态锁</text>
+
+  <rect class="box" x="684" y="228" width="210" height="118" rx="18"/>
+  <text class="label" x="714" y="274">视觉检测</text>
+  <text class="small" x="714" y="305">YOLO ONNX 640</text>
+  <text class="small" x="714" y="329">模板匹配 / fallback</text>
+
+  <rect class="dark" x="980" y="228" width="210" height="118" rx="18"/>
+  <text x="1010" y="274" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="700" fill="#f4efe4">策略引擎</text>
+  <text class="smallLight" x="1010" y="305">buy / sell / double diamond</text>
+  <text class="smallLight" x="1010" y="329">冷却期 / 去重 / 状态恢复</text>
+
+  <path class="line" d="M302 287h72"/>
+  <path class="line" d="M598 287h72"/>
+  <path class="line" d="M894 287h72"/>
+
+  <rect class="box" x="244" y="478" width="250" height="116" rx="18"/>
+  <text class="label" x="274" y="522">Journal / Reports</text>
+  <text class="small" x="274" y="553">runs / alerts / events</text>
+  <text class="small" x="274" y="577">日报与夜盘复盘</text>
+
+  <rect class="box" x="600" y="478" width="250" height="116" rx="18"/>
+  <text class="label" x="630" y="522">Alert Guard</text>
+  <text class="small" x="630" y="553">重复过滤 / 冷却</text>
+  <text class="small" x="630" y="577">多策略上下文</text>
+
+  <rect class="box" x="956" y="478" width="250" height="116" rx="18"/>
+  <text class="label" x="986" y="522">Push Channels</text>
+  <text class="small" x="986" y="553">PushPlus / 飞书</text>
+  <text class="small" x="986" y="577">钉钉 / 企业微信</text>
+
+  <path class="line" d="M1085 346v70q0 20-20 20H746q-20 0-20 20v12"/>
+  <path class="line" d="M850 536h92"/>
+  <path class="line" d="M600 536h-92"/>
+  <path class="line" d="M1085 346v70q0 20-20 20H390q-20 0-20 20v12"/>
+
+  <rect x="92" y="626" width="1098" height="42" rx="21" fill="#edf1e5" stroke="#ccd7be"/>
+  <text x="122" y="653" font-family="Inter,Arial,sans-serif" font-size="16" fill="#46513f">安全边界：只读图表与行情信号，不自动下单；凭据走环境变量；告警结果写入 journal 便于复盘。</text>
+</svg>

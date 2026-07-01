@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>钟和卫 | AI 应用工程师 · LLM 应用开发</title>
+  <meta name="description" content="钟和卫的招聘版个人网站：AI 应用工程师、LLM 应用开发、全栈 AI 工程师，展示 AI 应用、Agent、Vision LLM、自动化与全栈项目。">
+  <link rel="icon" href="assets/profile-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="回到顶部">
+      <img src="assets/profile-mark.svg" alt="" class="brand-mark">
+      <span>钟和卫</span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="#projects">项目</a>
+      <a href="#system">方法</a>
+      <a href="#skills">技能</a>
+      <a href="#contact">联系</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-band">
+      <div class="hero-copy">
+        <p class="eyebrow">AI 应用工程师 · LLM 应用开发 · 全栈 AI 工程师</p>
+        <h1>把模糊业务需求，交付成可运行的 AI 系统。</h1>
+        <p class="hero-lede">
+          我是钟和卫，现任中山市集智合科技（YOWOW 有我）AI 应用工程师。1 年内独立交付 10+ 个 AI 应用与全栈项目，覆盖 LLM 内容适配、Vision LLM、本地 AI 工作台、短视频生成流水线、后台管理、数据追踪、浏览器自动化、GEO 官网和桌面图像识别。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">查看代表项目</a>
+          <a class="button secondary" href="mailto:zhongheweiwei@gmail.com">发送邮件</a>
+        </div>
+        <dl class="quick-facts" aria-label="核心信息">
+          <div>
+            <dt>目标岗位</dt>
+            <dd>AI 应用 / Agent / Python AI 后端 / 全栈 AI</dd>
+          </div>
+          <div>
+            <dt>所在地</dt>
+            <dd>广东中山，目标地区深圳 / 广州 / 珠三角</dd>
+          </div>
+          <div>
+            <dt>主栈</dt>
+            <dd>Python + TypeScript + LLM / Vision / Automation</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero-visual" aria-label="AI 应用交付能力地图">
+        <img src="assets/delivery-map.svg" alt="从模糊需求到可运行系统的 AI 应用交付地图">
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="交付证明">
+      <div>
+        <strong>10+</strong>
+        <span>AI 应用与全栈项目</span>
+      </div>
+      <div>
+        <strong>7</strong>
+        <span>JSON Schema 驱动的数据合约实践</span>
+      </div>
+      <div>
+        <strong>4</strong>
+        <span>LLM / Vision / 自动化 / 前后端方向</span>
+      </div>
+      <div>
+        <strong>3 min</strong>
+        <span>短视频生产链路从约 30 分钟降至约 3 分钟</span>
+      </div>
+    </section>
+
+    <section class="section-band intro-grid" aria-labelledby="resume-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Recruiter Brief</p>
+        <h2 id="resume-heading">适合先看项目，再看简历。</h2>
+      </div>
+      <div class="intro-copy">
+        <p>
+          我的优势不是只会调 API，而是能把业务目标拆成产品界面、后端接口、数据库结构、自动化流程、大模型调用链路和验收脚本。简历里的项目大多从需求评审、架构选型、编码实现、调试部署到后续迭代由我独立闭环。
+        </p>
+        <p>
+          公开页面默认不展示手机号；招聘沟通请优先通过邮箱联系。
+        </p>
+      </div>
+      <figure class="resume-preview">
+        <img src="assets/resume-preview.png" alt="脱敏后的简历首页预览">
+        <figcaption>脱敏简历预览 · 完整投递版可通过邮件沟通</figcaption>
+      </figure>
+    </section>
+
+    <section class="section-band projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="section-heading wide">
+        <p class="eyebrow">Selected Work</p>
+        <h2 id="projects-heading">代表项目</h2>
+        <p>优先展示能体现工程闭环、AI 应用深度和复杂系统落地能力的项目。</p>
+      </div>
+
+      <article class="project-feature">
+        <div class="project-copy">
+          <p class="project-kicker">AI Agent 应用 + 本地数据网关 · 2026.06</p>
+          <h3>玄玑十二 GPT + 富途本地投资决策辅助工作台</h3>
+          <p>
+            构建本地化股票决策辅助工作台，覆盖股票池维护、行情读取、三仓筛选、账户只读查看、GPT 专家建议和风险提示流程。系统边界明确为“只读建议 + 人工确认”，不执行自动交易。
+          </p>
+          <ul class="project-points">
+            <li>React + TypeScript + Vite 实现前端工作台，支持股票池编辑、CSV/XLSX 导入、本地保存和三仓视图。</li>
+            <li>Node.js 服务封装 OpenAI Responses API 代理、Futu 网关转发、股票池持久化和可选 Basic Auth。</li>
+            <li>Python 富途只读网关读取行情、K 线、持仓、账户和订单，并计算 MA20/50/200、MOM20、ATR 等指标。</li>
+          </ul>
+          <p class="stack-line">React · TypeScript · Vite · Node.js · Python · futu-api · OpenAI Responses API · xlsx · JSON</p>
+        </div>
+        <figure class="project-visual large">
+          <img src="assets/xuanji-workbench.png" alt="玄玑十二 GPT 富途本地版工作台截图">
+        </figure>
+      </article>
+
+      <article class="project-feature reverse">
+        <div class="project-copy">
+          <p class="project-kicker">计算机视觉 + 桌面自动化</p>
+          <h3>桌面端图像识别与信号推送系统</h3>
+          <p>
+            构建 Windows 桌面自动化监控系统，使用实时截屏、OCR、OpenCV 模板匹配和 YOLO ONNX 识别图表信息，再通过策略引擎判断并推送告警。
+          </p>
+          <ul class="project-points">
+            <li>实现多策略引擎、冷却期、重复过滤、运行 journal、日报和夜盘复盘材料。</li>
+            <li>集成 PushPlus、飞书、钉钉、企业微信四通道推送，凭据通过环境变量注入。</li>
+            <li>按粗颗粒模块拆分运行配置、UI 导航截图、检测映射、扫描循环、告警日志报告。</li>
+          </ul>
+          <p class="stack-line">Python · OpenCV · ONNX Runtime · Tesseract · mss · pywin32 · YOLO · PushPlus</p>
+        </div>
+        <figure class="project-visual diagram">
+          <img src="assets/futu-architecture.svg" alt="富途桌面图像识别与信号推送系统架构图">
+        </figure>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-kicker">LLM 内容适配与 Agent 工程 · 2026.05 至今</p>
+          <h3>多赛道热点内容适配系统</h3>
+          <p>设计多租户内容适配引擎，将中立热点、赛道档案、平台档案和反馈数据拆为共享热点层、个性化适配层与六维反馈层。</p>
+          <ul>
+            <li>使用 7 份 JSON Schema 定义数据合约，新增赛道无需修改引擎主体。</li>
+            <li>接入 OpenAI-compatible、Volcengine Ark、Mock 等多路 provider。</li>
+            <li>以 verify.py 作为模块交付自动验收门，支持 replay / llm 双后端。</li>
+          </ul>
+          <p class="stack-line">Python · JSON Schema · Claude Agent SDK / Skills · Volcengine Ark · SQLite / Turso</p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Android + Python Vision LLM · 2026.04-2026.06</p>
+          <h3>触觉教学助手</h3>
+          <p>开发 Android 应用，实时捕捉摄像头帧并识别食指指向手势，将目标区域截图发送至后端 Vision QA 服务。</p>
+          <ul>
+            <li>FastAPI 提供 vision-qa、pointing-detect、health 端点和 Bearer Token 认证。</li>
+            <li>Provider Pattern 支持 Mock、OpenAI-compatible、Volcengine Ark、LM Studio 切换。</li>
+            <li>采用全图 + context crop + zoom crop 的 composite JPEG 提升视觉问答识别效果。</li>
+          </ul>
+          <p class="stack-line">Python · FastAPI · OpenCV / MediaPipe · OpenAI Vision API · Kotlin · Jetpack Compose · CameraX</p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">AIGC 内容生产系统 · 2024.12-2025.02</p>
+          <h3>短视频自动化生成流水线</h3>
+          <p>针对多账号矩阵短视频产能不足，设计 Python 流水线、React/Remotion 渲染层和 Node.js Web 控制台三层架构。</p>
+          <ul>
+            <li>实现文案拆句、TTS 配音、ASR 转写、字幕时间轴对齐、场景规划、渲染和质检报告。</li>
+            <li>ASR 失败时自动降级为按文本长度重分配时长，Web 控制台支持任务队列和日志流式写入。</li>
+            <li>单条视频生产从约 30 分钟人工降至约 3 分钟自动化。</li>
+          </ul>
+          <p class="stack-line">Python · React · Remotion · TypeScript · Node.js · FastAPI · fal.ai · Groq / faster-whisper</p>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Next.js 全栈内部工具 · 2026.06</p>
+          <h3>小红书笔记数据追踪工具</h3>
+          <p>构建用于管理多账号小红书内容数据快照的全栈应用，支持 Excel 导入、筛选、排序、批量删除和 Vercel 部署。</p>
+          <ul>
+            <li>Prisma 设计 Account / Note / Snapshot / ActionLog 数据模型。</li>
+            <li>通过 noteId 与 snapshotDate 唯一键避免重复录入，率字段统一存小数。</li>
+            <li>接入 Neon PostgreSQL，供运营团队使用。</li>
+          </ul>
+          <p class="stack-line">Next.js 14 · TypeScript · Tailwind CSS · Prisma · PostgreSQL / Neon · Vercel · Vitest</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band system-section" id="system" aria-labelledby="system-heading">
+      <div class="section-heading">
+        <p class="eyebrow">How I Work</p>
+        <h2 id="system-heading">我的工程工作方式</h2>
+      </div>
+      <div class="system-steps">
+        <article>
+          <span>01</span>
+          <h3>把业务语言翻译成工程边界</h3>
+          <p>先明确用户、使用场景、数据来源、安全边界和验收标准，再拆成前端、后端、数据库、自动化流程和 LLM 调用链。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>用结构化合约约束大模型</h3>
+          <p>通过 JSON Schema、Prompt 合约、内容校验和反馈回流，降低 LLM 输出不可控带来的工程风险。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>为真实运行环境设计降级路径</h3>
+          <p>行情缺失、GPT 失败、经济日历不可用、ASR 失败、UI 前台焦点异常等场景，都需要本地规则兜底和清晰状态提示。</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>交付能被接手的系统</h3>
+          <p>输出运行手册、接口说明、交接文档、验证脚本和安全边界，让项目不仅能跑，也能维护。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="section-heading wide">
+        <p class="eyebrow">Skill Matrix</p>
+        <h2 id="skills-heading">技能清单</h2>
+      </div>
+      <div class="skills-table" role="table" aria-label="技能矩阵">
+        <div role="row">
+          <strong role="cell">AI / LLM</strong>
+          <span role="cell">OpenAI API（Chat / Vision）、Volcengine Ark、Anthropic / Claude、Claude Skills / Agent SDK、Prompt Engineering、结构化生成、JSON Schema 约束、多模型 Provider 抽象、内容校验与反馈回流</span>
+        </div>
+        <div role="row">
+          <strong role="cell">后端 / 数据</strong>
+          <span role="cell">Python、FastAPI、Uvicorn、httpx、Pydantic、SQLAlchemy、SQLite、PostgreSQL、Prisma、Neon、Turso、RESTful API、Bearer Token、飞书 / 企微开放平台集成</span>
+        </div>
+        <div role="row">
+          <strong role="cell">前端 / 全栈</strong>
+          <span role="cell">TypeScript、React、Next.js 14 / 15 App Router、Server Actions、Tailwind CSS、Radix UI、TipTap、Hugo、响应式设计、Vercel 部署</span>
+        </div>
+        <div role="row">
+          <strong role="cell">自动化 / 多模态</strong>
+          <span role="cell">Playwright、OpenCV、MediaPipe、OCR、YOLO / ONNX、TTS / ASR、Remotion 视频渲染、openpyxl / xlsx、futu-api、本地数据网关、浏览器自动化、桌面截屏与信号推送</span>
+        </div>
+        <div role="row">
+          <strong role="cell">工程化</strong>
+          <span role="cell">Git、pytest、Vitest、JSON Schema 合约设计、任务队列 / Worker、日志与状态恢复、Linux / Nginx / Docker 基础</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band timeline-section" aria-labelledby="timeline-heading">
+      <div class="section-heading">
+        <p class="eyebrow">Timeline</p>
+        <h2 id="timeline-heading">当前阶段</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <time>2025.09 - 至今</time>
+          <h3>中山市集智合科技（YOWOW 有我）｜AI 应用工程师</h3>
+          <p>承接 AI 教育硬件、内容运营、品牌官网、内部工具和自动化系统等需求，独立负责方案设计、架构选型、编码实现、调试部署与迭代。</p>
+        </article>
+        <article>
+          <time>2021.09 - 2025.07</time>
+          <h3>广东技术师范大学｜智能科学与技术（本科）</h3>
+          <p>课程覆盖机器学习、计算机视觉、自然语言处理、神经网络、数字图像处理、数据结构与算法。毕业设计为基于 YOLO 的电力线路缺陷检测系统。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-heading">如果你在找能独立落地 AI 应用的人，可以先看这些项目。</h2>
+        <p>目标岗位：AI 应用工程师 / LLM 应用开发工程师 / Agent 开发工程师 / Python 后端 AI 方向 / 全栈 AI 工程师。</p>
+      </div>
+      <div class="contact-panel">
+        <a class="email-link" href="mailto:zhongheweiwei@gmail.com">zhongheweiwei@gmail.com</a>
+        <button class="button secondary" type="button" data-copy-email>复制邮箱</button>
+        <p>广东中山 · 目标地区：深圳 / 广州 / 珠三角</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>钟和卫 · AI 应用工程师</span>
+    <a href="#top">回到顶部</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720" viewBox="0 0 1100 720" role="img" aria-labelledby="title desc">
+  <title id="title">AI application delivery map</title>
+  <desc id="desc">Map of AI application engineering capabilities from business ambiguity to shipped systems.</desc>
+  <rect width="1100" height="720" rx="36" fill="#20251f"/>
+  <text x="72" y="92" font-family="Inter,Arial,sans-serif" font-size="36" font-weight="800" fill="#f7f3ea">从模糊需求到可运行系统</text>
+  <text x="72" y="132" font-family="Inter,Arial,sans-serif" font-size="18" fill="#cdd7c4">业务拆解 · 架构选型 · LLM 合约 · 本地/云端部署 · 反馈回流</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="72" y="196" width="208" height="116" rx="20" fill="#f7f3ea"/>
+    <text x="102" y="239" font-size="21" font-weight="700" fill="#20251f">需求评审</text>
+    <text x="102" y="273" font-size="15" fill="#596158">把业务目标拆成页面、接口、流程和数据合约</text>
+    <rect x="330" y="196" width="208" height="116" rx="20" fill="#f7f3ea"/>
+    <text x="360" y="239" font-size="21" font-weight="700" fill="#20251f">LLM 链路</text>
+    <text x="360" y="273" font-size="15" fill="#596158">Prompt / JSON Schema / Provider 抽象 / 校验</text>
+    <rect x="588" y="196" width="208" height="116" rx="20" fill="#f7f3ea"/>
+    <text x="618" y="239" font-size="21" font-weight="700" fill="#20251f">全栈实现</text>
+    <text x="618" y="273" font-size="15" fill="#596158">Python / FastAPI / React / Next.js / Node</text>
+    <rect x="846" y="196" width="182" height="116" rx="20" fill="#d9b35f"/>
+    <text x="876" y="239" font-size="21" font-weight="700" fill="#20251f">部署验收</text>
+    <text x="876" y="273" font-size="15" fill="#20251f">本机、Vercel、云函数、局域网工具</text>
+    <path d="M280 254h38" stroke="#8ca66b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M538 254h38" stroke="#8ca66b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M796 254h38" stroke="#8ca66b" stroke-width="5" stroke-linecap="round"/>
+    <rect x="72" y="392" width="956" height="190" rx="26" fill="#2d342b" stroke="#55624d"/>
+    <text x="110" y="444" font-size="22" font-weight="700" fill="#f7f3ea">已交付类型</text>
+    <text x="110" y="493" font-size="18" fill="#dfe8d6">LLM 内容适配系统 · Vision LLM 教学助手 · 本地投资决策工作台 · 短视频 AIGC 流水线</text>
+    <text x="110" y="532" font-size="18" fill="#dfe8d6">社媒运营自动化 · 小红书数据追踪 · GEO 官网 · 桌面视觉识别告警</text>
+  </g>
+  <circle cx="962" cy="86" r="28" fill="#8ca66b"/>
+  <circle cx="1018" cy="86" r="28" fill="#d9b35f"/>
+</svg>
