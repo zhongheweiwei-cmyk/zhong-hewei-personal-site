@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="820" viewBox="0 0 1280 820" role="img" aria-labelledby="title desc">
+  <title id="title">Xuanji Twelve local AI workbench system visual</title>
+  <desc id="desc">Clean system visual for the Xuanji Twelve GPT and Futu local decision assistant.</desc>
+  <rect width="1280" height="820" fill="#20251f"/>
+  <rect x="48" y="48" width="1184" height="724" rx="34" fill="#f7f3ea"/>
+  <text x="92" y="118" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#20251f">玄玑十二 GPT + 富途本地投资决策辅助工作台</text>
+  <text x="92" y="158" font-family="Inter,Arial,sans-serif" font-size="18" fill="#5d665d">只读建议 · 人工确认 · 本地数据网关 · GPT 专家团</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2l8 4-8 4z" fill="#6e854f"/>
+    </marker>
+    <style>
+      .card{fill:#fffaf0;stroke:#d4cab7;stroke-width:2}
+      .dark{fill:#20251f}
+      .accent{fill:#d9b35f}
+      .green{fill:#e8efdd;stroke:#9bad7f;stroke-width:2}
+      .h{font:800 22px Inter,Arial,sans-serif;fill:#20251f}
+      .p{font:16px Inter,Arial,sans-serif;fill:#5d665d}
+      .lightH{font:800 22px Inter,Arial,sans-serif;fill:#fffaf0}
+      .lightP{font:16px Inter,Arial,sans-serif;fill:#dfe6d7}
+      .line{stroke:#6e854f;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect class="card" x="92" y="220" width="252" height="142" rx="20"/>
+  <text class="h" x="122" y="270">前端工作台</text>
+  <text class="p" x="122" y="306">股票池维护 / 三仓视图</text>
+  <text class="p" x="122" y="334">CSV / XLSX 导入</text>
+
+  <rect class="card" x="414" y="220" width="252" height="142" rx="20"/>
+  <text class="h" x="444" y="270">Node 本地服务</text>
+  <text class="p" x="444" y="306">API 代理 / Basic Auth</text>
+  <text class="p" x="444" y="334">本机 JSON 持久化</text>
+
+  <rect class="dark" x="736" y="220" width="252" height="142" rx="20"/>
+  <text class="lightH" x="766" y="270">GPT 专家团</text>
+  <text class="lightP" x="766" y="306">结构化上下文</text>
+  <text class="lightP" x="766" y="334">JSON 建议 / 风险提示</text>
+
+  <rect class="card" x="414" y="470" width="252" height="142" rx="20"/>
+  <text class="h" x="444" y="520">Python 富途网关</text>
+  <text class="p" x="444" y="556">行情 / K 线 / 账户只读</text>
+  <text class="p" x="444" y="584">MA / MOM / ATR 指标</text>
+
+  <rect class="green" x="92" y="470" width="252" height="142" rx="20"/>
+  <text class="h" x="122" y="520">股票池数据</text>
+  <text class="p" x="122" y="556">本地保存</text>
+  <text class="p" x="122" y="584">导入校验 / 降级提示</text>
+
+  <rect class="accent" x="736" y="470" width="252" height="142" rx="20"/>
+  <text class="h" x="766" y="520">风控边界</text>
+  <text class="p" x="766" y="556">隐藏总资产</text>
+  <text class="p" x="766" y="584">不自动下单</text>
+
+  <path class="line" d="M344 291h56"/>
+  <path class="line" d="M666 291h56"/>
+  <path class="line" d="M540 362v94"/>
+  <path class="line" d="M344 541h56"/>
+  <path class="line" d="M666 541h56"/>
+
+  <rect x="92" y="668" width="1096" height="52" rx="26" fill="#20251f"/>
+  <text x="126" y="701" font-family="Inter,Arial,sans-serif" font-size="17" fill="#fffaf0">定位：只读辅助系统，交易动作仍由人工确认；真实行情、账户和订单通过本地网关读取。</text>
+  <circle cx="1112" cy="287" r="36" fill="#6e854f"/>
+  <circle cx="1172" cy="287" r="36" fill="#d9b35f"/>
+</svg>

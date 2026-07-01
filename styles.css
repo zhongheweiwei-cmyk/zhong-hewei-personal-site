@@ -388,6 +388,14 @@ h3 {
   background: var(--bg);
 }
 
+.inline-project-visual {
+  margin: 18px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--paper);
+}
+
 .system-section {
   display: grid;
   grid-template-columns: minmax(220px, 0.45fr) minmax(320px, 1fr);
