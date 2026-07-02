@@ -99,22 +99,38 @@
         <p>优先展示能体现工程闭环、AI 应用深度和复杂系统落地能力的项目。</p>
       </div>
 
-      <article class="project-feature">
+      <article class="project-feature hero-project">
         <div class="project-copy">
-          <p class="project-kicker">AI Agent 应用 + 本地数据网关 · 2026.06</p>
-          <h3>玄玑十二 GPT + 富途本地投资决策辅助工作台</h3>
+          <p class="project-kicker">React 工作台 + 富途牛牛真实行情 + GPT 专家接口 · 2026.06</p>
+          <h3>玄玑十二 V3.0 股票决策工作台</h3>
           <p>
-            构建本地化股票决策辅助工作台，覆盖股票池维护、行情读取、三仓筛选、账户只读查看、GPT 专家建议和风险提示流程。系统边界明确为“只读建议 + 人工确认”，不执行自动交易。
+            从 0 到 1 做成可运行的美股投研工作台，把富途牛牛行情接入、52 个标的候选池、十二节点时间盘、三仓筛选、GPT 专家接口和风控边界放到同一个操作界面。系统定位是“只读建议 + 人工确认”，不执行自动交易。
           </p>
+          <div class="project-metrics" aria-label="玄玑十二项目关键指标">
+            <div>
+              <strong>52</strong>
+              <span>标的实时行情接入</span>
+            </div>
+            <div>
+              <strong>12</strong>
+              <span>节点时间盘覆盖盘前到盘后</span>
+            </div>
+            <div>
+              <strong>3</strong>
+              <span>定星仓、行星仓、流星仓分层</span>
+            </div>
+          </div>
           <ul class="project-points">
-            <li>React + TypeScript + Vite 实现前端工作台，支持股票池编辑、CSV/XLSX 导入、本地保存和三仓视图。</li>
-            <li>Node.js 服务封装 OpenAI Responses API 代理、Futu 网关转发、股票池持久化和可选 Basic Auth。</li>
+            <li>React + TypeScript + Vite 实现深色侧栏、星盘总览、三仓扫描、风控提示、账户与配置页等完整前端。</li>
+            <li>Node.js 服务封装 GPT 专家接口、Futu OpenD 转发、股票池持久化和 Basic Auth，后台 Key 不回传浏览器。</li>
             <li>Python 富途只读网关读取行情、K 线、持仓、账户和订单，并计算 MA20/50/200、MOM20、ATR 等指标。</li>
           </ul>
           <p class="stack-line">React · TypeScript · Vite · Node.js · Python · futu-api · OpenAI Responses API · xlsx · JSON</p>
         </div>
-        <figure class="project-visual diagram">
-          <img src="assets/xuanji-system.svg" alt="玄玑十二 GPT 富途本地版系统示意图">
+        <figure class="project-visual xuanji-gallery">
+          <img class="xuanji-main" src="assets/xuanji-v3-dashboard.jpg" alt="玄玑十二 V3.0 星盘与十二节点时间盘截图">
+          <img class="xuanji-secondary" src="assets/xuanji-v3-risk.jpg" alt="玄玑十二 V3.0 风控执行边界截图">
+          <figcaption>真实数据版界面截图：行情接入、十二节点时间盘、三仓筛选与风控边界。</figcaption>
         </figure>
       </article>
 
