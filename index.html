@@ -156,19 +156,26 @@
         </figure>
       </article>
 
-      <div class="project-grid">
-        <article class="project-card">
+      <article class="project-feature reverse" id="content-bridge">
+        <div class="project-copy">
           <p class="project-kicker">LLM 内容适配与 Agent 工程 · 2026.05 至今</p>
           <h3>多赛道热点内容适配系统</h3>
-          <p>设计多租户内容适配引擎，将中立热点、赛道档案、平台档案和反馈数据拆为共享热点层、个性化适配层与六维反馈层。</p>
-          <ul>
+          <p>
+            设计多租户内容适配引擎，并配套「内容桥梁台」前端用于日常决策快照、账号判断、热点池和赛道适配查看。右侧截图展示的是实际前端界面：同一批热点如何在不同账号、不同赛道下被判定为必发、待拍板或别蹭。
+          </p>
+          <ul class="project-points">
             <li>使用 7 份 JSON Schema 定义数据合约，新增赛道无需修改引擎主体。</li>
             <li>接入 OpenAI-compatible、Volcengine Ark、Mock 等多路 provider。</li>
             <li>以 verify.py 作为模块交付自动验收门，支持 replay / llm 双后端。</li>
           </ul>
           <p class="stack-line">Python · JSON Schema · Claude Agent SDK / Skills · Volcengine Ark · SQLite / Turso</p>
-        </article>
+        </div>
+        <figure class="project-visual large">
+          <img src="assets/content-bridge-dashboard.png" alt="内容桥梁台今日总览前端截图">
+        </figure>
+      </article>
 
+      <div class="project-grid">
         <article class="project-card">
           <p class="project-kicker">Android + Python Vision LLM · 2026.04-2026.06</p>
           <h3>触觉教学助手</h3>
